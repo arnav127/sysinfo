@@ -28,7 +28,6 @@ int main()
 	do
 	{
 		c = fgetc(fptr);
-		//printf("%c", c);
 		if(c>='0'&&c<='9')
 			num[i++]=c;
 	}while(c!=EOF);
